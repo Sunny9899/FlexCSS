@@ -3,6 +3,39 @@
     background-color: skyblue;
     height:800px;
     display: flex;
+    /* 
+     flex-direction: row-reverse; 
+     flex-direction:column;
+     flex-direction:column-reverse;  */
+  
+     justify-content: center;
+    /* 
+     justify-content: center;
+     justify-content: end; 
+     justify-content: flex-start;   
+     justify-content: flex-end; 
+     justify-content: space-around;   
+     justify-content: space-between  */
+  
+    /*
+     flex-wrap:nowrap; 
+     flex-wrap:wrap-reverse 
+     flex-wrap:wrap;  */
+  
+    flex-flow: row wrap;
+  
+    /*
+    align-items:center; 
+    align-items:flex-start; 
+    align-items:flex-end; 
+    align-items:baseline;  */
+  
+    /*
+    align-content:space-between;
+    align-content:space-around;
+    align-content: center;
+    align-content: flex-start; */
+    align-content: flex-end;
   }
   #box {
     width: 100px;
@@ -18,3 +51,4 @@
   }
   
   
+ 
